@@ -1,0 +1,7 @@
+Major Bugs:
+1. Discontinuous data bug
+2. Course sections, professors name mismatch or missing
+3. Server down time checking
+
+Improvements:
+1. Directly save to database insteadly of manul uploading
