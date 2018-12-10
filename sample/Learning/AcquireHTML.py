@@ -1,3 +1,4 @@
+#!@Author: NathanPG
 import urllib.request
  
 def getHTML(url):
@@ -11,11 +12,11 @@ def saveHTML(fname, htmlcontent):
         f.write(htmlcontent)
  
 if __name__ == '__main__':
-	url = "https://robertsspaceindustries.com/"
+	url = "https://sis.rpi.edu/reg/zs201809.htm/"
 
 	html = getHtml(url)
 
-	saveHtml("StarCitizen", html)
+	saveHtml("SisCourses", html)
 
 	print("Save Complete!")
 
